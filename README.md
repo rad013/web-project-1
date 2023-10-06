@@ -47,13 +47,3 @@ terms and conditions.
     • Display information about LVinnamon's store locations.
 
     • Provide details on business hours and complete addresses for offline visits.
-
-**Project Goals**
-
-Our primary goals for this project are as follows:
-
-1. Develop an engaging and visually appealing website for LVinnamon.
-
-2. Ensure full functionality and responsiveness across devices for a superior user experience.
-
-3. Incorporate creative use of CSS properties and JavaScript to meet project requirements.
