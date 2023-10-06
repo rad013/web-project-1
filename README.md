@@ -1,4 +1,4 @@
-![image](https://github.com/rad013/web-project-1/assets/115696959/9ea37d8a-39af-4cb9-ae03-b1ce50b577d0)**Project Overview**
+**Project Overview**
 
 LVinnamon envisions an attractive, fully functional website that provides essential information and engages visitors effectively. The website should be responsive, ensuring seamless access across various devices, including mobile phones and tablets. To achieve this, we employ CSS properties and JavaScript functionalities strategically. 
 
