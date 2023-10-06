@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Navigation Bar</title>
+  </head>
+  <body>
+    <div class="nav-rect"></div>
+    <nav class="navbar">
+      <div class="navbar-selection">
+        <a href="../pages/home.html"
+          ><img src="../asset/LOGO 2.png" alt="" class="logo"
+        /></a>
+        <div class="navbar-menu">
+          <div class="store-dropdown">
+            <div
+              class="navbar-item dropdown-item"
+              onmouseenter="showDropdown()"
+              onmouseleave="hideDropdown()"
+            >
+              <a href="../pages/product.html" class="navbar-link">PRODUCT</a>
+              <div class="dropdown-content">
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=ROLL"
+                    class="dropdown-link"
+                    >Roll</a
+                  >
+                </div>
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=BREAD"
+                    class="dropdown-link"
+                    >Bread</a
+                  >
+                </div>
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=MUFFIN"
+                    class="dropdown-link"
+                    >Muffin</a
+                  >
+                </div>
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=COOKIE"
+                    class="dropdown-link"
+                    >Cookie</a
+                  >
+                </div>
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=BEVERAGE"
+                    class="dropdown-link"
+                    >Beverage</a
+                  >
+                </div>
+                <div class="dropdown-item dropdown-category">
+                  <a
+                    href="../pages/product.html?category=OTHERS"
+                    class="dropdown-link"
+                    >Other Pastries</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <a href="../pages/our-store.html" class="navbar-link">OUR STORE</a>
+          </div>
+          <div class="navbar-item">
+            <a href="../pages/about-us.html" class="navbar-link">ABOUT US</a>
+          </div>
+          <div class="navbar-item">
+            <a href="../pages/register.html" class="navbar-link">REGISTER</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../asset/LOGO.png" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../scripts/jquery-3.6.0.min.js"></script>
+    <title>LVinnamon</title>
+  </head>
+  <body>
+    <header>
+      <div id="navigation"></div>
+    </header>
+
+    <main>
+      <div id="carouselAutoplaying">
+        <div id="slide-body">
+          <div id="slider-container">
+            <div id="slider">
+              <img
+                src="../asset/slideshow-1.png"
+                class="carousel-item"
+                id="slide1-image"
+              />
+              <img
+                src="../asset/slideshow-2-1.png"
+                class="carousel-item"
+                id="slide2-image"
+              />
+              <img
+                src="../asset/slideshow-3.jpg"
+                class="carousel-item"
+                id="slide3-image"
+              />
+            </div>
+
+            <div
+              class="control-button left carousel-control-prev"
+              type="button"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#fafafa"
+                class="bi bi-chevron-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                />
+              </svg>
+            </div>
+            <div
+              class="control-button right carousel-control-next"
+              type="button"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                fill="#fafafa"
+                class="bi bi-chevron-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="home-category">OUR CATEGORIES</p>
+      <div class="category-card-list">
+        <div class="category-card">
+          <a href="../pages/product.html?category=ROLL">
+            <img src="../asset/cinnamon-rolls.svg" class="cat-card-image" />
+            <p class="cat-card-title">Roll</p></a
+          >
+        </div>
+        <div class="category-card">
+          <a href="../pages/product.html?category=BREAD"
+            ><img src="../asset/bread.svg" class="cat-card-image" />
+            <p class="cat-card-title">Bread</p></a
+          >
+        </div>
+        <div class="category-card">
+          <a href="../pages/product.html?category=MUFFIN">
+            <img src="../asset/muffin.svg" class="cat-card-image" />
+            <p class="cat-card-title">Muffin</p></a
+          >
+        </div>
+        <div class="category-card">
+          <a href="../pages/product.html?category=COOKIE">
+            <img src="../asset/cookie.svg" class="cat-card-image" />
+            <p class="cat-card-title">Cookie</p></a
+          >
+        </div>
+        <div class="category-card">
+          <a href="../pages/product.html?category=BEVERAGE">
+            <img src="../asset/beverage.svg" class="cat-card-image" />
+            <p class="cat-card-title">Beverage</p></a
+          >
+        </div>
+        <div class="category-card">
+          <a href="../pages/product.html?category=OTHERS">
+            <img src="../asset/other-pastry.svg" class="cat-card-image" />
+            <p class="cat-card-title">Pastries</p></a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer"></div>
+    </footer>
+  </body>
+  <script src="../scripts/script.js"></script>
+</html>

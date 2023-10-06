@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../asset/LOGO.png" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../scripts/jquery-3.6.0.min.js"></script>
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>
+      <div id="navigation"></div>
+    </header>
+
+    <main>
+      <div class="register-form">
+        <h1 id="register">Register your account</h1>
+
+        <form>
+          <label class="registration-label" for="name">Name</label>
+          <input
+            class="input-name"
+            type="text"
+            id="name"
+            name="accountName"
+            required
+          />
+
+          <label class="registration-label" for="region">Region</label>
+          <br />
+          <select
+            class="input-region"
+            id="region"
+            name="accountRegion"
+            required
+          >
+            <option value="" selected disabled>
+              --Please choose a region--
+            </option>
+            <option value="jakarta">Jakarta</option>
+            <option value="bogor">Bogor</option>
+            <option value="depok">Depok</option>
+            <option value="tangerang">Tangerang</option>
+            <option value="bekasi">Bekasi</option>
+          </select>
+
+          <br />
+
+          <br />
+
+          <label class="registration-label" for="PhoneNumber"
+            >Phone Number</label
+          >
+          <input
+            class="input-number"
+            type="text"
+            id="PhoneNumber"
+            name="accountNumber"
+            required
+          />
+
+          <label class="registration-label" for="Email">Email</label>
+          <input
+            class="input-email"
+            type="text"
+            id="Email"
+            name="accountEmail"
+            required
+          />
+
+          <label class="registration-label" for="password">Password</label>
+          <input
+            class="input-password"
+            type="password"
+            id="password"
+            name="accountPassword"
+            required
+          />
+
+          <label class="registration-label" for="Repassword">Re-password</label>
+          <input
+            class="input-repass"
+            type="password"
+            id="Repassword"
+            name="Repassword"
+            required
+          />
+
+          <label class="registration-label" id="terms">
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="checkbox"
+              id="checkbox"
+              required
+            />
+            <label for="checkbox" class="terms"
+              >I agree to the terms and conditions</label
+            >
+          </label>
+          <br />
+          <div class="btn-container">
+            <button class="submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div id="footer"></div>
+    </footer>
+  </body>
+  <script src="../scripts/script.js"></script>
+  <script src="../scripts/register-script.js"></script>
+</html>
