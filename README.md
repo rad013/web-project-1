@@ -8,7 +8,7 @@ The website comprises five main pages, each designed to meet specific requiremen
 
 1. Home Page
 
-    ![LVinnamon](https://github.com/rad013/web-project-1/assets/115696959/427dc0e2-ef9e-4eb5-879c-80a18af66291)
+    ![LVinnamon](https://i.imgur.com/MQ92yuk.jpg)
 
     • Display product categories available at LVinnamon.
 
@@ -17,7 +17,7 @@ promotions, or news.
 
 2. Products Page
 
-    ![image](https://github.com/rad013/web-project-1/assets/115696959/8b94eac5-b832-4c47-a19d-1ea53184629f)
+    ![image](https://i.imgur.com/JratTii.png)
 
     • Present all products categorized by product type.
 
@@ -25,7 +25,7 @@ promotions, or news.
 
 3. Register Page
 
-    ![image](https://github.com/rad013/web-project-1/assets/115696959/d777b900-41bd-4efe-90a7-1f2a9f295690)
+    ![image](https://i.imgur.com/L8tnjSZ.png)
 
     • Provide a registration form for customers to submit personal information.
 
@@ -34,7 +34,7 @@ terms and conditions.
 
 4. About Us Page
 
-    ![image](https://github.com/rad013/web-project-1/assets/115696959/11f156f2-dfc4-4608-b90f-fa19a6ef63e3)
+    ![image](https://i.imgur.com/drx6gO2.png)
 
     • Offer a brief history and company profile of LVinnamon.
 
@@ -42,7 +42,7 @@ terms and conditions.
 
 5. Our Store Page
 
-    ![image](https://github.com/rad013/web-project-1/assets/115696959/8d9334ef-ef3c-4bd5-b82e-d6a809876ac9)
+    ![image](https://i.imgur.com/Z1XuHK7.png)
 
     • Display information about LVinnamon's store locations.
 
